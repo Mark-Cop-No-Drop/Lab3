@@ -1,0 +1,10 @@
+class Main {
+    public static void main(String[] args) {
+        int sum = 0;
+        int number = 0;
+        while(number<101){
+            System.out.println(number + " , " + sum);
+            number++;
+            sum= sum+number;
+        }
+    }}
