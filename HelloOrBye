@@ -1,0 +1,21 @@
+class Main {
+    public static void main(String[] args) {
+        Scanner Scanner = new Scanner(System.in);
+        int apple = 0;
+        while(apple==0){
+            System.out.println("1 - Say hello");
+                    System.out.println("2 - Say Bye");
+            System.out.println("3 - Exit");
+            int path = Scanner.nextInt();
+            switch (path){
+                case 1:
+                    System.out.println("Hello!");
+                    break;
+                case 2:
+                    System.out.println("Bye");
+                    break;
+                default:
+                    apple++;
+                            System.out.println("closing program");
+                            break;
+    }}}}
